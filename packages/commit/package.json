@@ -1,0 +1,27 @@
+{
+  "name": "@hczzj/commit",
+  "version": "0.0.0",
+  "description": "hcz zj commit",
+  "author": "ahzzhc <1820348870@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/commit.test.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@hczzj/command": "^0.0.0",
+    "@hczzj/utils": "^0.0.0",
+    "fs-extra": "^11.3.0",
+    "semver": "^7.7.1",
+    "simple-git": "^3.27.0"
+  }
+}
